@@ -1,0 +1,32 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "Learning React from basics.",
+  "keywords": [
+    "react",
+    "basics"
+  ],
+  "homepage": "https://github.com/RamuSriram/Learning-React#readme",
+  "bugs": {
+    "url": "https://github.com/RamuSriram/Learning-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamuSriram/Learning-React.git"
+  },
+  "license": "ISC",
+  "author": "Anonymous",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}
